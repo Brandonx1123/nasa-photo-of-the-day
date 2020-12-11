@@ -14,7 +14,6 @@ const WrapperDiv =styled.div `
 
 background-image: url('<span>Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/collections/136301/space?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>');
 background-size: cover;
-/* background-color: #cccccc; */
 height: 100vh;
 
 `
