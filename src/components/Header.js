@@ -1,4 +1,11 @@
 import React from 'react'
+import styled, {keyframes} from 'styled-components'
+
+const HeaderDiv = styled.div `
+color: white;
+background:black;
+margin: 0 auto;
+`
 
 
 function Header (props) {
@@ -6,12 +13,10 @@ function Header (props) {
 
     return (
         <div >
-            <h1>{props.title}</h1>
-            <h2>{props.date}</h2>
-            <div>
-            <iframe src ={props.video} width='40%' height ='500'></iframe>
+            <HeaderDiv>
+                <h1>NASA PHOTO OF THE DAY</h1>
+            </HeaderDiv>
             </div>
-        </div>
     )
 }
 
